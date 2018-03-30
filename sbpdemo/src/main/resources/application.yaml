@@ -1,0 +1,14 @@
+mybatis:
+  type-aliases-package: com.newer.sbpdemo.bean
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test1?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+
+  session:
+    store-type: redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
